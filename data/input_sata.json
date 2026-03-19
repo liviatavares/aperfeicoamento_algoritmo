@@ -1,0 +1,44 @@
+{
+  "configuracoes": {
+    "weeks": 12,
+    "slots_por_semana": 10,
+    "valor_hora_padrao": 100.0
+  },
+  "eixos_targets": {
+    "Computação": 0.30,
+    "Orientação": 0.30,
+    "UX": 0.15,
+    "Matemática": 0.15,
+    "Negócios": 0.10
+  },
+ "professores": [
+    {
+      "id": 1,
+      "nome": "Prof. 1",
+      "eixos_habilitados": ["Computação", "Orientação", "UX", "Matemática", "Negócios"],
+      "custo_hora": 120.0,
+      "max_horas_semana": 40,
+      "disponibilidade": [
+        {"dia": "Segunda", "slots": ["08-10", "10-12", "14-16", "16-18"]},
+        {"dia": "Terça", "slots": ["08-10", "10-12", "14-16", "16-18"]},
+        {"dia": "Quarta", "slots": ["08-10", "10-12", "14-16", "16-18"]},
+        {"dia": "Quinta", "slots": ["08-10", "10-12", "14-16", "16-18"]},
+        {"dia": "Sexta", "slots": ["08-10", "10-12", "14-16", "16-18"]}
+      ]
+    },
+    {
+      "id": 2,
+      "nome": "Prof. 2",
+      "eixos_habilitados": ["Computação", "Orientação", "UX", "Matemática", "Negócios"],
+      "custo_hora": 150.0,
+      "max_horas_semana": 40,
+      "disponibilidade": [
+        {"dia": "Segunda", "slots": ["08-10", "10-12", "14-16", "16-18"]},
+        {"dia": "Terça", "slots": ["08-10", "10-12", "14-16", "16-18"]},
+        {"dia": "Quarta", "slots": ["08-10", "10-12", "14-16", "16-18"]},
+        {"dia": "Quinta", "slots": ["08-10", "10-12", "14-16", "16-18"]},
+        {"dia": "Sexta", "slots": ["08-10", "10-12", "14-16", "16-18"]}
+      ]
+    }
+  ]
+}
